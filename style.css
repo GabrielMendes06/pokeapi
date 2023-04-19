@@ -8,14 +8,16 @@
     box-sizing: border-box;
     text-align: center;
     margin: 0;
-    height: 100%;
+    
 }
 
-body {
+body, html {
     background-image: url(exportados/pxfuel\ \(1\).jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    height: 100%;
+    width: 100%;
 }
 
 #cabecalho {
