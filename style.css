@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#container {
+    width: 200px;
+    background-color: lightgray;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.459);
+    margin: auto;
+}
