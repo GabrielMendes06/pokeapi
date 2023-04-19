@@ -6,11 +6,9 @@ function loadpk() {
       return response.json();
     })
     .catch((erro) => {
-      alert(`${erro}: Esse pokemon não existe, ou foi escrito da maneira errada!`)
+      alert(`Esse pokemon não existe ou foi escrito da maneira errada!`)
     })
     .then((data) => {
-      console.clear();
-      console.log(data);
       document.querySelector("#nome").innerHTML = data["name"];
       document.querySelector("#numero").innerHTML = `Numero: ${data["id"]}`;
       let img = data["sprites"]["front_default"];
@@ -40,7 +38,6 @@ function getStats(data) {
   const status = data.stats;
   status.map((statusBase) => {
     dados.innerHTML += `<p>${statusBase.stat.name}: ${statusBase.base_stat}`;
-    console.log(statusBase);
   });
 }
 

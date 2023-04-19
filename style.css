@@ -52,6 +52,7 @@ h2 {
     background-position: left;
     border-radius: 10%;
     border: 1px solid black;  
+    margin-bottom: 15px;
 }
 
 #nome {
@@ -90,4 +91,5 @@ height: 40px;
 
 #paragrafos p {
     text-align: center;
+    margin: 15px;
 }
