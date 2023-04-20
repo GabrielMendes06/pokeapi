@@ -14,9 +14,7 @@ body{
     background-image: url(exportados/pxfuel\ \(1\).jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 100%;
-    width: 100%;
+    background-attachment: fixed; 
 }
 
 #cabecalho {
@@ -92,4 +90,18 @@ height: 40px;
 #paragrafos p {
     text-align: center;
     margin: 15px;
+}
+
+footer p{
+    color: white;
+}
+
+#copy {
+    font-size: 0.9em;
+    margin-top: 15px;
+}
+
+#copyr {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3em;
 }
