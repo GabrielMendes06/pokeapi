@@ -1,6 +1,6 @@
 function loadpk() {
   const url = "https://pokeapi.co/api/v2/pokemon/";
-  let dados = url + nomePokemon.value;
+  let dados = url + nomePokemon.value.toLowerCase();
   fetch(dados)
     .then((response) => {
       return response.json();
